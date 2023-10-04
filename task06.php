@@ -2,8 +2,7 @@
 
 function sequence($n)
 {
-    if ($n < 1) {
-        echo "1\n";
+    if ($n < 0) {
         return;
     }
 
